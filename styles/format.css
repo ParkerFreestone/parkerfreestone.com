@@ -11,8 +11,11 @@
     .navigation-wrapper > .left-column {
         width: 100%;
         height: auto;
-        font-size: 5rem;
         padding-bottom: 5px;
+    }
+
+    .navigation-wrapper > .left-column > .name {
+        font-size: 5rem;
     }
 
     .navigation-wrapper > .right-column {
