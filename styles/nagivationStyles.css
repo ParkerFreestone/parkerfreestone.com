@@ -53,7 +53,7 @@
 }
 
 .navigation-wrapper > .right-column a{
-    width: 100%;
+    width: 98%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -63,6 +63,14 @@
     text-decoration: none;
     transition: 0.3s ease;
     padding: 46px;
+    border-bottom-right-radius: 30px;
+}
+
+.navigation-wrapper > .right-column a.active {
+    color: #A78A7F;
+    background: rgb(175, 34, 24);
+    border-bottom-right-radius: 30px;
+    /* border-bottom-left-radius: 30px; */
 }
 
 .navigation-wrapper > .right-column > .nav-links {
