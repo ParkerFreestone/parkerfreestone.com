@@ -1,0 +1,11 @@
+
+.top-content-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background: url(../images/landingBackground.jpg);
+    background-size: cover;
+    background-repeat: none;
+    z-index: -99;
+}
