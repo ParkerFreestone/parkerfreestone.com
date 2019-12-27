@@ -3,12 +3,11 @@
     width: 100vw;
     height: 116px;
     background: #8C1C13;
-    color: white;
     font-family: 'Maven Pro', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 0px 6px 27px 5px rgba(0,0,0,0.75);
+    z-index: -99;
 }
 
 /* Left Column Styles */
