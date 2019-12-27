@@ -4,12 +4,15 @@
     .navigation-wrapper {
         display: flex;
         flex-direction: column;
+        height: auto;
+        padding-bottom: 20px;
     }
 
     .navigation-wrapper > .left-column {
         width: 100%;
         height: auto;
         font-size: 3rem;
+        padding-bottom: 5px;
     }
 
     .navigation-wrapper > .right-column {
@@ -26,4 +29,11 @@
         align-items: center;
         flex-direction: column;
     }
+
+    .navigation-wrapper > .right-column > .nav-links > .link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
   }
