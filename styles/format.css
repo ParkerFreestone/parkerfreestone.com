@@ -4,7 +4,7 @@
     .navigation-wrapper {
         display: flex;
         flex-direction: column;
-        height: auto;
+        height: 300px;
         padding-bottom: 20px;
     }
 
