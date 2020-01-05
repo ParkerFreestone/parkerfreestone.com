@@ -1,7 +1,7 @@
 
 .box {
-     width: 40%;
-     height: 30%;
+     width: auto;
+     height: auto;
      position: absolute;
      top: 50%;
      left: 50%;
