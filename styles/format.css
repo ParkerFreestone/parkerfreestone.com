@@ -1,43 +1,13 @@
 
 
 @media only screen and (max-width: 479px) {
-    .navigation-wrapper {
-        display: flex;
-        flex-direction: column;
-        height: 300px;
-        padding-bottom: 20px;
-    }
-
-    .navigation-wrapper > .left-column {
-        width: 100%;
-        height: auto;
-        padding-bottom: 5px;
-    }
-
-    .navigation-wrapper > .left-column > .name {
-        padding-top: 10px;
-        font-size: 3rem;
-    }
-
-    .navigation-wrapper > .right-column {
+      .top-content-wrapper {
         width: 100%;
         height: auto;
         padding: 20px;
-    }
-
-    .navigation-wrapper > .right-column > .nav-links {
-        width: 100%;
-        font-size: 1.4rem;
         display: flex;
-        justify-content: space-evenly;
         align-items: center;
+        justify-content: space-around;
         flex-direction: column;
-    }
-
-    .navigation-wrapper > .right-column > .nav-links > .link {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
+      }
   }
