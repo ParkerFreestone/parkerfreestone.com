@@ -39,7 +39,7 @@
 .top-nav-bar > .left > .links > .link {
   width: auto;
   height: 100%;
-  border-bottom: 5px solid #010101;
+  border-bottom: 5px solid #101010;
   color: #80FF72;
   display: flex;
   justify-content: center;
@@ -105,7 +105,7 @@
 .top-nav-bar > .right > .links > .link {
   width: auto;
   height: 100%;
-  border-bottom: 5px solid #010101;
+  border-bottom: 5px solid #101010;
   color: #80FF72;
   display: flex;
   justify-content: center;
