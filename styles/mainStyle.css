@@ -61,6 +61,17 @@
   padding-left: 10px;
 }
 
+.top-nav-bar > .left > .links > .link-active a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.top-nav-bar > .left > .links > .link-active span {
+  color: #80FF72;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
 .top-nav-bar > .left > .links> .link:hover {
   border-bottom: 5px solid #80FF72;
 }
@@ -68,12 +79,6 @@
 .top-nav-bar > .left > .links > .link a {
   color: #fff;
   text-decoration: none;
-}
-
-.top-nav-bar > .left > .links > .link a.active {
-  color: #fff;
-  text-decoration: none;
-  border-bottom: 5px solid #80FF72;
 }
 
 .top-nav-bar > .left > .links > .link span {
@@ -153,6 +158,17 @@
   align-items: center;
   padding-right: 10px;
   padding-left: 10px;
+}
+
+.top-nav-bar > .right > .links > .link-active a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.top-nav-bar > .right > .links > .link-active span {
+  color: #80FF72;
+  text-decoration: none;
+  margin-left: 4px;
 }
 
 .top-nav-bar > .right > .links> .link:hover {
