@@ -6,5 +6,7 @@
     position: fixed;
     top: 0;
     background-image: url(../images/landingBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     /* font-family: 'Maven Pro', sans-serif; */
 }
