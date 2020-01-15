@@ -58,6 +58,12 @@
   text-decoration: none;
 }
 
+.top-nav-bar > .left > .links > .link a.active {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 5px solid #80FF72;
+}
+
 .top-nav-bar > .left > .links > .link span {
   color: #80FF72;
   text-decoration: none;
@@ -132,6 +138,13 @@
 .top-nav-bar > .right > .links > .link a {
   color: #fff;
   text-decoration: none;
+}
+
+
+.top-nav-bar > .right > .links > .link a.active {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 5px solid #80FF72;
 }
 
 .top-nav-bar > .right > .links > .link span {
