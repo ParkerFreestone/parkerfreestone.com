@@ -1,0 +1,36 @@
+
+.bottom-nav-bar {
+    width: 100vw;
+    height: 60px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-nav-bar > .links {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.bottom-nav-bar > .links > .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 5px 10px 5px 10px;
+    border-bottom: 4px solid #ffffff00;
+    transition: 0.2s ease;
+}
+
+.bottom-nav-bar > .links > .link a {
+    color: white;
+    text-decoration: none;
+}
+
+.bottom-nav-bar > .links > .link:hover {
+    border-bottom: 4px solid #fff;
+}

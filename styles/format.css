@@ -1,13 +1,5 @@
 
 
 @media only screen and (max-width: 479px) {
-      .top-nav-bar {
-        width: 100%;
-        height: auto;
-        padding: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: column;
-      }
+
   }
