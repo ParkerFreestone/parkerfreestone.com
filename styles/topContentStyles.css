@@ -2,17 +2,17 @@
 .top-content-wrapper {
     width: 100vw;
     height: auto;
-    padding-bottom: 20px;
     background: #191919;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     padding-top: 20px;
 }
 
 .top-content-wrapper > .shop-genders {
     width: 60%;
-    height: 600px;
+    height: 550px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -25,7 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 10px solid #333333;
+    /* border: 10px solid #333333; */
     transition: 0.3s ease;
 }
 
@@ -75,6 +75,76 @@
     color: white;
     text-decoration: none;
     font-size: 2rem;
+    padding: 30px;
+    border: 2px solid white;
+}
+
+.top-content-wrapper > .shop-skate-one {
+    width: 60%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #2c2c2c;
+    flex-direction: column;
+}
+
+.top-content-wrapper > .shop-skate-one > .shop-item {
+    width: 95%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 10px solid #333333; */
+    transition: 0.3s ease;
+}
+
+.top-content-wrapper > .shop-skate-one > .shop-item:hover {
+    box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+}
+
+.top-content-wrapper > .shop-skate-one > .shop-header::before {
+    content: "";
+    border-bottom: 1px solid #d3d3d3;
+    width: 30%;
+    margin-right: 1rem;
+}
+
+.top-content-wrapper > .shop-skate-one > .shop-header {
+    width: 95%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.top-content-wrapper > .shop-skate-one > .shop-header::after {
+    content: "";
+    border-bottom: 1px solid #d3d3d3;
+    width: 30%;
+    margin-left: 1rem;
+}
+
+.top-content-wrapper > .shop-skate-one > .shop-item > .text {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/landingShopMen.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-content-wrapper > .shop-skate-one > .shop-item > .text a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
     padding: 30px;
     border: 2px solid white;
 }
