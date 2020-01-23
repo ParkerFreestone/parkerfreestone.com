@@ -105,7 +105,7 @@
 
 .top-content-wrapper > .shop-skate-one > .shop-header::before {
     content: "";
-    border-bottom: 1px solid #d3d3d3;
+    border-bottom: 1px solid #191919;
     width: 30%;
     margin-right: 1rem;
 }
@@ -122,7 +122,7 @@
 
 .top-content-wrapper > .shop-skate-one > .shop-header::after {
     content: "";
-    border-bottom: 1px solid #d3d3d3;
+    border-bottom: 1px solid #191919;
     width: 30%;
     margin-left: 1rem;
 }
