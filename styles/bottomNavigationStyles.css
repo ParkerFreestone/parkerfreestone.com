@@ -2,7 +2,7 @@
 .bottom-nav-bar {
     width: 100vw;
     height: 60px;
-    background: #191919;
+    background: #BB7E5D;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,5 +32,5 @@
 }
 
 .bottom-nav-bar > .links > .link:hover {
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid #DBB68F;
 }
