@@ -16,7 +16,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #F3F3F3;
+    background: #DADADA;
 }
 
 .top-content-wrapper > .shop-genders > .shop-item {
@@ -85,7 +85,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #2c2c2c;
+    background: #DADADA;
     flex-direction: column;
 }
 
