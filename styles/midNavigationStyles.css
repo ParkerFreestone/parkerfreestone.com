@@ -71,6 +71,11 @@
     align-items: center;
 }
 
+.mid-nav-bar > .right > .logo-image img{
+    width: 60px;
+    height: 60px;
+}
+
 .mid-nav-bar > .right > .logo {
     width: 100%;
     height: 100%;
