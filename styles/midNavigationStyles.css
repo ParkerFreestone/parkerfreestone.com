@@ -37,7 +37,7 @@
 }
 
 .mid-nav-bar > .left > .links > .link a {
-    color: #191919;
+    color: white;
     font-weight: 900;
     text-decoration: none;
 }
@@ -80,7 +80,7 @@
 }
 
 .mid-nav-bar > .right > .logo a {
-    color: #191919;
+    color: white;
     font-weight: 900;
     text-decoration: none;
     font-size: 1.4rem;
