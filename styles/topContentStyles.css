@@ -35,6 +35,7 @@
 
 .top-content-wrapper > .shop > .shop-item-half:hover {
     box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+    margin: -5px;
 }
 
 .top-content-wrapper > .shop > .shop-item-half > .text-women {
@@ -128,6 +129,7 @@
 
 .top-content-wrapper > .shop > .shop-item-full:hover {
     box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+    margin: -5px;
 }
 
 .top-content-wrapper > .shop > .shop-item-full > .text-women {
