@@ -1,7 +1,7 @@
 
 .copyright-wrapper {
   width: 100vw;
-  height: 350px;
+  height: 500px;
   /* padding: 20px; */
   display: flex;
   align-items: center;
@@ -16,7 +16,7 @@
   align-items: center;
   flex-direction: column;
   width: 100vw;
-  height: 80%;
+  height: 55%;
   background: #284052;
   color: white;
 }
@@ -93,13 +93,47 @@
 .copyright-wrapper > .bottom {
   padding: 10px;
   width: 100vw;
-  height: 20%;
-  /* height: auto; */
+  height: 45%;
   background: #2D545C;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   text-indent: 50px;
   color: white;
-  font-size: 1.2rem;
+}
+
+.copyright-wrapper > .bottom > .right {
+  width: 60%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.copyright-wrapper > .bottom > .right > .header {
+  width: 30%;
+  height: 40%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.copyright-wrapper > .bottom > .right > .links {
+  width: 30%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.copyright-wrapper > .bottom > .right > .links a {
+  color: white;
+  text-decoration: none;
+  transition: 0.1s ease;
+}
+
+.copyright-wrapper > .bottom > .right > .links a:hover {
+  color: #db4a39;
 }
