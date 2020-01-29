@@ -102,8 +102,12 @@
   color: white;
 }
 
+.copyright-wrapper > .bottom > .left {
+  width: 45%;
+}
+
 .copyright-wrapper > .bottom > .right {
-  width: 60%;
+  width: 55%;
   height: 80%;
   display: flex;
   align-items: center;
