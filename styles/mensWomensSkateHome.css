@@ -1,0 +1,179 @@
+
+.top-content-wrapper {
+    width: 100vw;
+    height: auto;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.top-content-wrapper > .shop {
+    margin-top: 30px;
+    padding: 30px;
+    width: 60%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 250px;
+    background: #B2B09B;
+}
+
+/* Half Item */
+
+.top-content-wrapper > .shop > .shop-item-half {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 10px solid #333333; */
+    transition: 0.3s ease;
+}
+
+.top-content-wrapper > .shop > .shop-item-half:hover {
+    box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+    margin: -5px;
+}
+
+.top-content-wrapper > .shop > .shop-item-half > .text-women {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/landingShopWomen.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.top-content-wrapper > .shop > .shop-item-half > .text-women a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 30px;
+    border: 2px solid white;
+}
+
+.top-content-wrapper > .shop > .shop-item-half > .text-men {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/landingShopMen.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.top-content-wrapper > .shop > .shop-item-half > .text-men a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 30px;
+    border: 2px solid white;
+}
+
+/* Shop Header */
+
+.top-content-wrapper > .shop > .shop-header::before {
+  content:"";
+  display: block;
+  width: 20%;
+  border-bottom: 3px solid #191919;
+  margin-right: 15px;
+}
+
+
+.top-content-wrapper > .shop > .shop-header {
+  font-size: 2rem;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: span 2;
+}
+
+.top-content-wrapper > .shop > .shop-header::after {
+  content:"";
+  display: block;
+  width: 20%;
+  border-bottom: 3px solid #191919;
+  margin-left: 15px;
+}
+
+/* Shop Item Full */
+
+.top-content-wrapper > .shop > .shop-item-full {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 10px solid #333333; */
+    transition: 0.3s ease;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+.top-content-wrapper > .shop > .shop-item-full:hover {
+    box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+    margin: -5px;
+}
+
+.top-content-wrapper > .shop > .shop-item-full > .text-women {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/landingShopWomen.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.top-content-wrapper > .shop > .shop-item-full > .text-women a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 30px;
+    border: 2px solid white;
+}
+
+.top-content-wrapper > .shop > .shop-item-full > .text-men {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/landingShopMen.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.top-content-wrapper > .shop > .shop-item-full > .text-men a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 30px;
+    border: 2px solid white;
+}
