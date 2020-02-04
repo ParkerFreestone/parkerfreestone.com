@@ -2,4 +2,13 @@
 
 @media only screen and (max-width: 479px) {
 
+  /* Mid Navigation Format */
+
+  .mid-nav-bar {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    color: red;
   }
+
+}
