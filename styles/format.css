@@ -4,6 +4,7 @@
 
   /* Mid Navigation Format */
 
+
   .mid-nav-bar {
     width: 100%;
     height: auto;
@@ -12,6 +13,12 @@
 
   .mid-nav-bar > .left {
     width: 50%;
+    height: 100%;
+    display: flex;
+  }
+
+  .mid-nav-bar > .left > .links {
+    width: 100%;
     height: 100%;
     display: flex;
   }
